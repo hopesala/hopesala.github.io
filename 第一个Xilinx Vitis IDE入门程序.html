@@ -1,0 +1,1872 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="第一个Xilinx%20Vitis%20IDE入门程序.fld/filelist.xml">
+<link rel=Edit-Time-Data href="第一个Xilinx%20Vitis%20IDE入门程序.fld/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>曹 城华</o:Author>
+  <o:LastAuthor>曹 城华</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2020-04-06T01:38:00Z</o:Created>
+  <o:LastSaved>2020-04-06T01:38:00Z</o:LastSaved>
+  <o:Pages>30</o:Pages>
+  <o:Words>485</o:Words>
+  <o:Characters>2766</o:Characters>
+  <o:Lines>23</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3245</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="第一个Xilinx%20Vitis%20IDE入门程序.fld/themedata.thmx">
+<link rel=colorSchemeMapping
+href="第一个Xilinx%20Vitis%20IDE入门程序.fld/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2010TableStyleRules/>
+   <w:DontGrowAutofit/>
+   <w:DontUseIndentAsNumberingTabStop/>
+   <w:FELineBreak11/>
+   <w:WW11IndentRules/>
+   <w:DontAutofitConstrainedTables/>
+   <w:AutofitLikeWW11/>
+   <w:HangulWidthLikeWW11/>
+   <w:UseNormalStyleForList/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="375">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Courier;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 3 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:等线;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1593833729 1073750107 16 0 415 0;}
+@font-face
+	{font-family:"等线 Light";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:"\@DengXian";
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:"\@等线 Light";
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 1 字符";
+	mso-style-next:正文;
+	margin-top:17.0pt;
+	margin-right:0cm;
+	margin-bottom:16.5pt;
+	margin-left:0cm;
+	line-height:240%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:22.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;}
+h2
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 2 字符";
+	mso-style-next:正文;
+	margin-top:13.0pt;
+	margin-right:0cm;
+	margin-bottom:13.0pt;
+	margin-left:0cm;
+	line-height:173%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:16.0pt;
+	font-family:"等线 Light";}
+h3
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 3 字符";
+	mso-style-next:正文;
+	margin-top:13.0pt;
+	margin-right:0cm;
+	margin-bottom:13.0pt;
+	margin-left:0cm;
+	line-height:173%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:16.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+h4
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 4 字符";
+	mso-style-next:正文;
+	margin-top:14.0pt;
+	margin-right:0cm;
+	margin-bottom:14.5pt;
+	margin-left:0cm;
+	line-height:156%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:14.0pt;
+	font-family:"等线 Light";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 字符";
+	mso-style-next:正文;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:"等线 Light";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"副标题 字符";
+	mso-style-next:正文;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	line-height:130%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:16.0pt;
+	font-family:DengXian;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:14.0pt;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:21.0pt;
+	mso-char-indent-count:2.0;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.1
+	{mso-style-name:"标题 1 字符";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"标题 1";
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.a
+	{mso-style-name:"标题 字符";
+	mso-style-priority:10;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:标题;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-fareast-font-family:"等线 Light";
+	mso-hansi-font-family:"等线 Light";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;
+	font-weight:bold;}
+span.a0
+	{mso-style-name:"副标题 字符";
+	mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:副标题;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	mso-font-kerning:14.0pt;
+	font-weight:bold;}
+span.2
+	{mso-style-name:"标题 2 字符";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"标题 2";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-fareast-font-family:"等线 Light";
+	mso-hansi-font-family:"等线 Light";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;
+	font-weight:bold;}
+span.3
+	{mso-style-name:"标题 3 字符";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"标题 3";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:0pt;
+	font-weight:bold;}
+span.4
+	{mso-style-name:"标题 4 字符";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"标题 4";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-fareast-font-family:"等线 Light";
+	mso-hansi-font-family:"等线 Light";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;
+	font-weight:bold;}
+span.a1
+	{mso-style-name:"页眉 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:0pt;}
+span.a2
+	{mso-style-name:"页脚 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:0pt;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:DengXian;
+	mso-ascii-font-family:DengXian;
+	mso-fareast-font-family:DengXian;
+	mso-hansi-font-family:DengXian;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("第一个Xilinx%20Vitis%20IDE入门程序.fld/header.html") fs;
+	mso-footnote-continuation-separator:url("第一个Xilinx%20Vitis%20IDE入门程序.fld/header.html") fcs;
+	mso-endnote-separator:url("第一个Xilinx%20Vitis%20IDE入门程序.fld/header.html") es;
+	mso-endnote-continuation-separator:url("第一个Xilinx%20Vitis%20IDE入门程序.fld/header.html") ecs;}
+@page WordSection1
+	{size:595.0pt 842.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1769884836;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1778694308 -2075255402 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:DengXian;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN link=blue vlink="#954F72" style='tab-interval:21.0pt;
+text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoTitle>第一个<span lang=EN-US>Xilinx <span class=SpellE>Vitis</span> IDE</span>入门<span
+class=SpellE><span lang=EN-US>helloworld</span></span>程序（包含<span class=SpellE><span
+lang=EN-US>Vivado</span></span>，<span class=SpellE><span lang=EN-US>Vitis</span></span>和<span
+class=SpellE><span lang=EN-US>Petalinux</span></span>，超长<span lang=EN-US>&amp;</span>超多图）</p>
+
+<p class=MsoNormal><span lang=EN-US>Xilinx</span>最近推出了新一代<span class=SpellE><span
+lang=EN-US>Vitis</span></span>统一软件平台工具，结合官方文档进行了学习，整理相关文档如下，供参考～</p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>操作系统：<span lang=EN-US>Ubuntu 18.04.4 LTS</span></p>
+
+<p class=MsoNormal>命令<span class=SpellE><span lang=EN-US>lsb_release</span></span><span
+lang=EN-US> -a</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="图片_x0020_1" o:spid="_x0000_i1077" type="#_x0000_t75"
+ alt="" style='width:330pt;height:112pt;visibility:visible;mso-wrap-style:square;
+ mso-width-percent:0;mso-height-percent:0;mso-width-percent:0;
+ mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=330 height=112
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image001.png" v:shapes="图片_x0020_1"><![endif]></span></p>
+
+<p class=MsoNormal>安装<span class=SpellE><span lang=EN-US>Vitis</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US><a
+href="https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis.html">https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis.html</a></span></p>
+
+<p class=MsoNormal>在线安装网速很慢，离线下载安装包，<span lang=EN-US>Xilinx_Vitis_2019.2_1106_2127.tar
+30.76GB</span></p>
+
+<p class=MsoNormal>解压缩</p>
+
+<p class=MsoNormal><span lang=EN-US>tar <span class=SpellE>xvf</span> Xilinx_Vitis_2019.2_1106_2127.tar</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_2" o:spid="_x0000_i1076" type="#_x0000_t75" alt="" style='width:415pt;
+ height:156pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image002.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=156
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image002.png" v:shapes="图片_x0020_2"><![endif]></span></p>
+
+<p class=MsoNormal>安装，需要至少<span lang=EN-US>120G</span>磁盘空间，最好<span lang=EN-US>150G</span>以上</p>
+
+<p class=MsoNormal><span lang=EN-US>cd Xilinx_Vitis_2019.2_1106_2127/</span></p>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>./</span></span><span
+class=SpellE><span lang=EN-US>xsetup</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.0pt;font-family:"Verdana",sans-serif;
+color:#FF7E79;background:#FFFAA5'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_3" o:spid="_x0000_i1075" type="#_x0000_t75" alt="/var/folders/qk/vbdl5s3x3x786bdjtybmy9ch0000gn/T/com.microsoft.Word/WebArchiveCopyPasteTempFiles/p254"
+ style='width:415pt;height:333pt;visibility:visible;mso-wrap-style:square;
+ mso-width-percent:0;mso-height-percent:0;mso-width-percent:0;
+ mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image003.png" o:href="file:////var/folders/qk/vbdl5s3x3x786bdjtybmy9ch0000gn/T/com.microsoft.Word/WebArchiveCopyPasteTempFiles/p254"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=333
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image003.png"
+alt="/var/folders/qk/vbdl5s3x3x786bdjtybmy9ch0000gn/T/com.microsoft.Word/WebArchiveCopyPasteTempFiles/p254"
+v:shapes="图片_x0020_3"><![endif]></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>安装完成</p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:10.0pt;font-family:"Verdana",sans-serif;
+color:#FF7E79;background:#FFFAA5'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_4" o:spid="_x0000_i1074" type="#_x0000_t75" alt="/var/folders/qk/vbdl5s3x3x786bdjtybmy9ch0000gn/T/com.microsoft.Word/WebArchiveCopyPasteTempFiles/p255"
+ style='width:250pt;height:89pt;visibility:visible;mso-wrap-style:square;
+ mso-width-percent:0;mso-height-percent:0;mso-width-percent:0;
+ mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image004.png" o:href="file:////var/folders/qk/vbdl5s3x3x786bdjtybmy9ch0000gn/T/com.microsoft.Word/WebArchiveCopyPasteTempFiles/p255"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=250 height=89
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image004.png"
+alt="/var/folders/qk/vbdl5s3x3x786bdjtybmy9ch0000gn/T/com.microsoft.Word/WebArchiveCopyPasteTempFiles/p255"
+v:shapes="图片_x0020_4"><![endif]></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_5" o:spid="_x0000_i1073" type="#_x0000_t75" alt="" style='width:140pt;
+ height:138pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=140 height=138
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image005.png" v:shapes="图片_x0020_5"><![endif]></span></p>
+
+<p class=MsoNormal>安装<span class=SpellE><span lang=EN-US>petalinux</span></span></p>
+
+<p class=MsoNormal>略</p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>进入正题</p>
+
+<h3 style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>
+</span></span></span><![endif]><span lang=EN-US><span
+style='mso-spacerun:yes'> </span></span>首先使用<span class=SpellE><span
+lang=EN-US>Vivado</span></span>生成<span lang=EN-US>.<span class=SpellE>xsa</span></span>文件</h3>
+
+<p class=MsoNormal>打开<span class=SpellE><span lang=EN-US>Vivado</span></span><span
+lang=EN-US> 2019.2</span>，<span lang=EN-US>File-&gt;New Project</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_8" o:spid="_x0000_i1072" type="#_x0000_t75" alt="" style='width:415pt;
+ height:367pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image006.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=367
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image006.png" v:shapes="图片_x0020_8"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Next,</span>项目名称<span lang=EN-US>edt_zcu102_demo</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_9" o:spid="_x0000_i1071" type="#_x0000_t75" alt="" style='width:415pt;
+ height:367pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image007.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=367
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image007.png" v:shapes="图片_x0020_9"><![endif]></span></p>
+
+<p class=MsoNormal>默认</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_10" o:spid="_x0000_i1070" type="#_x0000_t75" alt="" style='width:415pt;
+ height:369pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image008.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=369
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image008.png" v:shapes="图片_x0020_10"><![endif]></span></p>
+
+<p class=MsoNormal>接下来的两个界面<span lang=EN-US>Add Sources</span>和<span
+lang=EN-US>Add Constraints</span>都直接<span lang=EN-US>Next</span>，然后选择<span
+lang=EN-US>Boards</span>，选择<span lang=EN-US>ZCU102</span>，<span lang=EN-US>Next</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_11" o:spid="_x0000_i1069" type="#_x0000_t75" alt="" style='width:415pt;
+ height:366pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=366
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image009.png" v:shapes="图片_x0020_11"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_12" o:spid="_x0000_i1068" type="#_x0000_t75" alt="" style='width:415pt;
+ height:372pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image010.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=372
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image010.png" v:shapes="图片_x0020_12"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Finish</span>，之后项目自动打开，点<span lang=EN-US>Create
+Block Design</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_13" o:spid="_x0000_i1067" type="#_x0000_t75" alt="" style='width:415pt;
+ height:390pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image011.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=390
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image011.png" v:shapes="图片_x0020_13"><![endif]></span></p>
+
+<p class=MsoNormal>设计名称<span lang=EN-US>edt_zcu102_demo,</span>然后<span
+lang=EN-US>OK</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_14" o:spid="_x0000_i1066" type="#_x0000_t75" alt="" style='width:378pt;
+ height:242pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image012.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=378 height=242
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image012.png" v:shapes="图片_x0020_14"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Add IP</span>，如下图红色箭头所示</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_15" o:spid="_x0000_i1065" type="#_x0000_t75" alt="" style='width:415pt;
+ height:186pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image013.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=186
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image013.png" v:shapes="图片_x0020_15"><![endif]></span></p>
+
+<p class=MsoNormal>输入<span class=SpellE><span lang=EN-US>znyq</span></span>进行过滤，并选择<span
+lang=EN-US>Zynq <span class=SpellE>UltraScale</span>+ <span class=SpellE>MPSoC</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_16" o:spid="_x0000_i1064" type="#_x0000_t75" alt="" style='width:199pt;
+ height:260pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image014.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=199 height=260
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image014.png" v:shapes="图片_x0020_16"><![endif]></span></p>
+
+<p class=MsoNormal>点击<span lang=EN-US>Run Block Automation</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_17" o:spid="_x0000_i1063" type="#_x0000_t75" alt="" style='width:415pt;
+ height:153pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=153
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image015.png" v:shapes="图片_x0020_17"><![endif]></span></p>
+
+<p class=MsoNormal>默认，点<span lang=EN-US>OK</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_18" o:spid="_x0000_i1062" type="#_x0000_t75" alt="" style='width:415pt;
+ height:265pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image016.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=265
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image016.png" v:shapes="图片_x0020_18"><![endif]></span></p>
+
+<p class=MsoNormal>双击红框位置，查看自动化效果</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_19" o:spid="_x0000_i1061" type="#_x0000_t75" alt="" style='width:415pt;
+ height:286pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=286
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image017.png" v:shapes="图片_x0020_19"><![endif]></span></p>
+
+<p class=MsoNormal>点左侧<span lang=EN-US>PS-PL Configuration</span>，展开，并将红框中的勾选框取消勾选，结果如图，<span
+lang=EN-US>OK</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_20" o:spid="_x0000_i1060" type="#_x0000_t75" alt="" style='width:415pt;
+ height:346pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image018.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=346
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image018.png" v:shapes="图片_x0020_20"><![endif]></span></p>
+
+<p class=MsoNormal>空白处右键，点击<span lang=EN-US>Validate Design</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_21" o:spid="_x0000_i1059" type="#_x0000_t75" alt="" style='width:415pt;
+ height:246pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=246
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image019.png" v:shapes="图片_x0020_21"><![endif]></span></p>
+
+<p class=MsoNormal>验证成功提示</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_22" o:spid="_x0000_i1058" type="#_x0000_t75" alt="" style='width:415pt;
+ height:102pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image020.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=102
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image020.png" v:shapes="图片_x0020_22"><![endif]></span></p>
+
+<p class=MsoNormal>右键<span lang=EN-US>Design Sources</span>下的文件，点击<span
+lang=EN-US>Create HDL Wrapper</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_23" o:spid="_x0000_i1057" type="#_x0000_t75" alt="" style='width:415pt;
+ height:272pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image021.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=272
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image021.png" v:shapes="图片_x0020_23"><![endif]></span></p>
+
+<p class=MsoNormal>默认，点<span lang=EN-US>OK</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_24" o:spid="_x0000_i1056" type="#_x0000_t75" alt="" style='width:415pt;
+ height:233pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image022.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=233
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image022.png" v:shapes="图片_x0020_24"><![endif]></span></p>
+
+<p class=MsoNormal>创建完成之后，展开<span lang=EN-US>edt_zcu102_demo_wrapper</span>，右键左侧红箭头，然后点<span
+lang=EN-US>Generate Output Products…</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_25" o:spid="_x0000_i1055" type="#_x0000_t75" alt="" style='width:415pt;
+ height:327pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image023.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=327
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image023.png" v:shapes="图片_x0020_25"><![endif]></span></p>
+
+<p class=MsoNormal>默认，点<span lang=EN-US>Generate</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_26" o:spid="_x0000_i1054" type="#_x0000_t75" alt="" style='width:164pt;
+ height:206pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image024.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=164 height=206
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image024.png" v:shapes="图片_x0020_26"><![endif]></span></p>
+
+<p class=MsoNormal>生成完成</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_27" o:spid="_x0000_i1053" type="#_x0000_t75" alt="" style='width:290pt;
+ height:76pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image025.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=290 height=76
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image025.png" v:shapes="图片_x0020_27"><![endif]></span></p>
+
+<p class=MsoNormal>导出硬件</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_28" o:spid="_x0000_i1052" type="#_x0000_t75" alt="" style='width:4in;
+ height:281pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image026.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=288 height=281
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image026.png" v:shapes="图片_x0020_28"><![endif]></span></p>
+
+<p class=MsoNormal>点<span lang=EN-US>OK</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_29" o:spid="_x0000_i1051" type="#_x0000_t75" alt="" style='width:415pt;
+ height:237pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image027.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=237
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image027.png" v:shapes="图片_x0020_29"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>生成最终的<span lang=EN-US style='color:#70AD47'>edt_zcu102_demo_wrapper.xsa</span>文件，后文<span
+class=SpellE><span lang=EN-US>petalinux</span></span>会用到该文件</p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<h2 style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:"等线 Light"'><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]>下面，有请<span
+lang=EN-US>Xilinx <span class=SpellE>Vitis</span> IDE 2019.2</span>闪亮登场！</h2>
+
+<h4><span lang=EN-US>2.1 </span>创建平台项目<span class=SpellE><span lang=EN-US>PlatformProject</span></span></h4>
+
+<p class=MsoNormal>打开<span class=SpellE><span lang=EN-US>Vitis</span></span><span
+lang=EN-US> IDE </span>，<span lang=EN-US>Workspace</span>选择默认，进入</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_30" o:spid="_x0000_i1050" type="#_x0000_t75" alt="" style='width:314pt;
+ height:273pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image028.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=314 height=273
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image028.png" v:shapes="图片_x0020_30"><![endif]></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>平台</b>项目名称<span
+lang=EN-US>test_a53_demo,Next</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_31" o:spid="_x0000_i1049" type="#_x0000_t75" alt="" style='width:415pt;
+ height:341pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image029.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=341
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image029.png" v:shapes="图片_x0020_31"><![endif]></span></p>
+
+<p class=MsoNormal>默认，从<span lang=EN-US>XSA</span>文件创建，<span lang=EN-US>Next</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_32" o:spid="_x0000_i1048" type="#_x0000_t75" alt="" style='width:415pt;
+ height:339pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image030.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=339
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image030.png" v:shapes="图片_x0020_32"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US>XSA</span>文件选择上文<span class=SpellE><span
+lang=EN-US>Vivado</span></span>生成的<span lang=EN-US style='color:#70AD47'>edt_zcu102_demo_wrapper.xsa</span>文件所在路径</p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_33" o:spid="_x0000_i1047" type="#_x0000_t75" alt="" style='width:415pt;
+ height:340pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image031.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=340
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image031.png" v:shapes="图片_x0020_33"><![endif]></span></p>
+
+<p class=MsoNormal>点击<span lang=EN-US>Finish</span>，依次点击下图红色箭头处，最后点击<span
+lang=EN-US>Modify BSP Settings…</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_34" o:spid="_x0000_i1046" type="#_x0000_t75" alt="" style='width:415pt;
+ height:245pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image032.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=245
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image032.png" v:shapes="图片_x0020_34"><![endif]></span></p>
+
+<p class=MsoNormal>添加如下三个库：<span class=SpellE><span lang=EN-US>xilffs</span></span><span
+lang=EN-US>, <span class=SpellE>xilpm</span>, <span class=SpellE>xilsecure</span></span>，点击<span
+lang=EN-US>OK</span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_35" o:spid="_x0000_i1045" type="#_x0000_t75" alt="" style='width:415pt;
+ height:364pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image033.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=364
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image033.png" v:shapes="图片_x0020_35"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:6.0pt;text-indent:-6.0pt;mso-char-indent-count:
+-.5'>右键该平台，如下图，<span lang=EN-US>Build Project</span></p>
+
+<p class=MsoNormal style='margin-left:6.0pt;text-indent:-6.0pt;mso-char-indent-count:
+-.5'><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_36" o:spid="_x0000_i1044" type="#_x0000_t75" alt="" style='width:259pt;
+ height:315pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image034.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=259 height=315
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image034.png" v:shapes="图片_x0020_36"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Build</span>完成</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_37" o:spid="_x0000_i1043" type="#_x0000_t75" alt="" style='width:415pt;
+ height:246pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image035.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=246
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image035.png" v:shapes="图片_x0020_37"><![endif]></span></p>
+
+<h4><span lang=EN-US>2.2 </span>创建应用工程<span class=SpellE><span lang=EN-US>ApplicationProject</span></span></h4>
+
+<p class=MsoNormal>创建了<b style='mso-bidi-font-weight:normal'>平台</b>工程<span
+lang=EN-US>Platform Project</span>，接下来创建<b style='mso-bidi-font-weight:normal'>应用</b>工程<span
+lang=EN-US>Application Project</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_38" o:spid="_x0000_i1042" type="#_x0000_t75" alt="" style='width:293pt;
+ height:251pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image036.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=293 height=251
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image036.png" v:shapes="图片_x0020_38"><![endif]></span></p>
+
+<p class=MsoNormal>项目名称：<span lang=EN-US>test_a53_application_demo</span>，<span
+lang=EN-US>Next</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_39" o:spid="_x0000_i1041" type="#_x0000_t75" alt="" style='width:415pt;
+ height:315pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image037.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=315
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image037.png" v:shapes="图片_x0020_39"><![endif]></span></p>
+
+<p class=MsoNormal>选择刚才创建的<span lang=EN-US>Platform</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_40" o:spid="_x0000_i1040" type="#_x0000_t75" alt="" style='width:415pt;
+ height:315pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image038.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=315
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image038.png" v:shapes="图片_x0020_40"><![endif]></span></p>
+
+<p class=MsoNormal>默认，<span lang=EN-US>Next</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_41" o:spid="_x0000_i1039" type="#_x0000_t75" alt="" style='width:415pt;
+ height:314pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image039.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=314
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image039.png" v:shapes="图片_x0020_41"><![endif]></span></p>
+
+<p class=MsoNormal>选择<span lang=EN-US>Hello World</span>，点击<span lang=EN-US>Finish</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_42" o:spid="_x0000_i1038" type="#_x0000_t75" alt="" style='width:415pt;
+ height:314pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image040.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=314
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image040.png" v:shapes="图片_x0020_42"><![endif]></span></p>
+
+<p class=MsoNormal>修改<span class=SpellE><span lang=EN-US>src</span></span>下的<span
+class=SpellE><span lang=EN-US>helloworld.c</span></span>文件，并保存</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_43" o:spid="_x0000_i1037" type="#_x0000_t75" alt="" style='width:415pt;
+ height:187pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image041.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=187
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image041.png" v:shapes="图片_x0020_43"><![endif]></span></p>
+
+<p class=MsoNormal>右键项目，如下图，<span lang=EN-US>Build Project</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_44" o:spid="_x0000_i1036" type="#_x0000_t75" alt="" style='width:313pt;
+ height:286pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image042.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=313 height=286
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image042.png" v:shapes="图片_x0020_44"><![endif]></span></p>
+
+<p class=MsoNormal>由于没有硬件<span lang=EN-US>ZCU102</span>板子，采用<span lang=EN-US>Emulation</span>仿真，右键点击<span
+lang=EN-US>Run As/Lunch on Emulator</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_45" o:spid="_x0000_i1035" type="#_x0000_t75" alt="" style='width:415pt;
+ height:231pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image043.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=231
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image043.png" v:shapes="图片_x0020_45"><![endif]></span></p>
+
+<p class=MsoNormal>点击<span lang=EN-US>Start Emulator and Run</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_46" o:spid="_x0000_i1034" type="#_x0000_t75" alt="" style='width:415pt;
+ height:116pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image044.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=116
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image044.png" v:shapes="图片_x0020_46"><![endif]></span></p>
+
+<p class=MsoNormal>运行成功，<span lang=EN-US>Emulation Console</span>输出<span
+class=SpellE><span lang=EN-US>printf</span></span>信息～</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_47" o:spid="_x0000_i1033" type="#_x0000_t75" alt="" style='width:415pt;
+ height:302pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image045.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=302
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image045.png" v:shapes="图片_x0020_47"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<h2 style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:"等线 Light"'><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]>使用<span
+class=SpellE><span lang=EN-US>petalinux</span></span>生成<span class=SpellE><span
+lang=EN-US>linux</span></span>镜像</h2>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US>petalinux</span></span>和<span
+class=SpellE><span lang=EN-US>bsp</span></span>（<span lang=EN-US>Board Support
+Packages</span>）文件这里下载<span lang=EN-US><a
+href="https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html">https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html</a></span></p>
+
+<p class=MsoNormal>我的<span class=SpellE><span lang=EN-US>petalinux</span></span>安装在<span
+lang=EN-US style='background:yellow;mso-highlight:yellow'>~/Desktop/<span
+class=SpellE>petalinux</span>/</span>下</p>
+
+<p class=MsoNormal>执行命令<span lang=EN-US>source <span style='background:yellow;
+mso-highlight:yellow'>~/Desktop/petalinux</span>/settings.sh</span></p>
+
+<p class=MsoNormal>进入<span class=SpellE><span lang=EN-US>bsp</span></span>文件所在目录</p>
+
+<p class=MsoNormal>创建工程命令<span class=SpellE><span lang=EN-US>petalinux</span></span><span
+lang=EN-US>-create -t project -s xilinx-zcu102-v2019.2-final.bsp</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_6" o:spid="_x0000_i1032" type="#_x0000_t75" alt="" style='width:415pt;
+ height:170pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image046.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=170
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image046.png" v:shapes="图片_x0020_6"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>根据<span lang=EN-US style='color:#70AD47'>edt_zcu102_ <span
+class=SpellE>demo_wrapper.xsa</span></span>文件所在目录（注意不是文件，也不要拷贝<span lang=EN-US>.<span
+class=SpellE>xsa</span></span>至当前目录下）重新配置<span class=SpellE><span lang=EN-US>petalinux</span></span><span
+lang=EN-US>-config --get-<span class=SpellE>hw</span>-description='/home/<span
+class=SpellE>caochenghua</span>/project_1edt_zcu102/' </span></p>
+
+<p class=MsoNormal>弹出如下界面，修改配置信息</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_48" o:spid="_x0000_i1031" type="#_x0000_t75" alt="" style='width:415pt;
+ height:277pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image047.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=277
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image047.png" v:shapes="图片_x0020_48"><![endif]></span></p>
+
+<p class=MsoNormal>保存并退出</p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_49" o:spid="_x0000_i1030" type="#_x0000_t75" alt="" style='width:415pt;
+ height:268pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image048.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=268
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image048.png" v:shapes="图片_x0020_49"><![endif]></span></p>
+
+<p class=MsoNormal>编辑<span lang=EN-US>.<span class=SpellE>dtsi</span></span>文件为如下内容</p>
+
+<p class=MsoNormal><span lang=EN-US>vi
+./project-spec/meta-user/recipes-bsp/device-tree/files/system-user.dtsi</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_51" o:spid="_x0000_i1029" type="#_x0000_t75" alt="" style='width:415pt;
+ height:307pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image049.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=307
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image049.png" v:shapes="图片_x0020_51"><![endif]></span></p>
+
+<p class=MsoNormal>完成后，<span class=SpellE><span lang=EN-US>petalinux</span></span><span
+lang=EN-US>-build</span>，第一次<span lang=EN-US>build</span>需要联网下载<span
+class=SpellE><span lang=EN-US style='font-size:11.5pt;font-family:"Arial",sans-serif;
+color:#171C2D;background:white'>sstate</span></span><span lang=EN-US
+style='font-size:11.5pt;font-family:"Arial",sans-serif;color:#171C2D;
+background:white'>-cache</span>超级慢，经过漫长的等待后<span lang=EN-US>…</span>终于成功</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_50" o:spid="_x0000_i1028" type="#_x0000_t75" alt="" style='width:415pt;
+ height:275pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image050.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=275
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image050.png" v:shapes="图片_x0020_50"><![endif]></span></p>
+
+<p class=MsoNormal>生成的文件在<span lang=EN-US>images/<span class=SpellE>linux</span></span>目录下</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_52" o:spid="_x0000_i1027" type="#_x0000_t75" alt="" style='width:415pt;
+ height:329pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image051.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=329
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image051.png" v:shapes="图片_x0020_52"><![endif]></span></p>
+
+<p class=MsoNormal>生成<span lang=EN-US>Boot image</span>镜像文件</p>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US style='font-size:9.0pt;
+font-family:Courier;color:black'>petalinux</span></span><span lang=EN-US
+style='font-size:9.0pt;font-family:Courier;color:black'>-package --boot --<span
+class=SpellE>fsbl</span> <span class=SpellE>zynqmp_fsbl.elf</span> --u-boot</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_53" o:spid="_x0000_i1026" type="#_x0000_t75" alt="" style='width:415pt;
+ height:212pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image052.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=212
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image052.png" v:shapes="图片_x0020_53"><![endif]></span></p>
+
+<p class=MsoNormal>生成的<span lang=EN-US>BOOT.BIN <span class=SpellE>image.ub</span>
+u-<span class=SpellE>boot.elf</span></span>文件如下</p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_55" o:spid="_x0000_i1025" type="#_x0000_t75" alt="" style='width:415pt;
+ height:369pt;visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-width-percent:0;mso-height-percent:0'>
+ <v:imagedata src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image053.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=415 height=369
+src="第一个Xilinx%20Vitis%20IDE入门程序.fld/image053.png" v:shapes="图片_x0020_55"><![endif]></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>参考文献</p>
+
+<p class=MsoNormal><span lang=EN-US>ug1209-embedded-design-tutorial.pdf</span></p>
+
+<p class=MsoNormal>下载地址<span lang=EN-US>https://www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug1209-embedded-design-tutorial.pdf</span></p>
+
+</div>
+
+</body>
+
+</html>
